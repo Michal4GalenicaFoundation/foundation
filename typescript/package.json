@@ -1,0 +1,17 @@
+{
+  "name": "fizzbuzz",
+  "version": "1.0.0",
+  "description": "fizzbuzz",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jasmine"
+  },
+  "author": "Michal Ptacek",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jasmine": "^5.1.2",
+    "jasmine": "^5.1.0",
+    "typescript": "^5.2.2"
+  }
+}
