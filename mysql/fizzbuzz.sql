@@ -1,6 +1,6 @@
 SET @row_num = 0;
 
-select GROUP_CONCAT(fb order by id SEPARATOR ', ') 
+select GROUP_CONCAT(fb order by id SEPARATOR ', ') as FizzBuzz
 from
 (
 	select 
@@ -37,5 +37,5 @@ from
 					ROW ('Unused')
 				) AS rowz 
 			) as ids 
-) as fbs group by c
+) as fbs group by c;
 
